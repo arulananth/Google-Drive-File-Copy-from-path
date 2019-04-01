@@ -1,0 +1,60 @@
+  .btnSquareOutline {
+    border: 2px solid gray;
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    color: black;
+    padding: 5px 5px;
+    font-size: 15px;
+    font-weight: lighter;
+    border-radius: 5px;
+}
+
+.btnSquareOutline > i {
+    font-size: 24px;
+}
+.prev-next
+{
+  position: fixed;
+  top:49%;
+}
+a.prev-next {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  
+}
+
+a:hover.prev-next {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous.prev-next {
+  background-color: #f1f1f1;
+  color: black;
+  left:10px;
+  z-index: 9999;
+}
+
+.next.prev-next {
+  background-color: #4CAF50;
+  color: white;
+  right:10px;
+  z-index: 9999;
+
+}
+
+.round.prev-next {
+  border-radius: 50%;
+}
+
+#o-auth{
+  position: fixed;
+  top:0;
+  right:5%;
+}
+.save-to-drive-text
+{
+  display: none !important;
+}
